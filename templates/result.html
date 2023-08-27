@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-md mx-auto mt-10 p-6 bg-white rounded shadow-md">
+        <h1 class="text-2xl font-semibold mb-4">Resultado</h1>
+        {% if matching_db %}
+            <p>La base de datos que coincide con tus respuestas es: {{ matching_db }}</p>
+        {% else %}
+            <p>No se encontró una base de datos que coincida con tus respuestas.</p>
+        {% endif %}
+        <br>
+        <a href="/" class="bg-red-500 text-white px-4 py-2 rounded ">Regresar</a>
+    </div>
+</body>
+</html>

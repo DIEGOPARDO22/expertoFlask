@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preguntas sobre la Base de Datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-md mx-auto mt-10 p-6 bg-white rounded shadow-md">
+        <h1 class="text-2xl font-semibold mb-4">Preguntas sobre la Base de Datos</h1>
+        <form method="post" action="/result">
+            <div class="mb-4">
+                <label class="block text-sm font-medium">¿La base de datos es multiplataforma?</label>
+                <div class="mt-1 space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="multiplataforma" value="S" class="form-radio">
+                        <span class="ml-2">Sí</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="multiplataforma" value="N" class="form-radio">
+                        <span class="ml-2">No</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium">¿La base de datos es relacional?</label>
+                <div class="mt-1 space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="relacional" value="S" class="form-radio">
+                        <span class="ml-2">Sí</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="relacional" value="N" class="form-radio">
+                        <span class="ml-2">No</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium">¿La base de datos es de software libre?</label>
+                <div class="mt-1 space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="software_libre" value="S" class="form-radio">
+                        <span class="ml-2">Sí</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="software_libre" value="N" class="form-radio">
+                        <span class="ml-2">No</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium">¿La base de datos es pesada?</label>
+                <div class="mt-1 space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="pesada" value="S" class="form-radio">
+                        <span class="ml-2">Sí</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="pesada" value="N" class="form-radio">
+                        <span class="ml-2">No</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium">¿La base de datos funciona en celulares?</label>
+                <div class="mt-1 space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="funciona_en_celulares" value="S" class="form-radio">
+                        <span class="ml-2">Sí</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="funciona_en_celulares" value="N" class="form-radio">
+                        <span class="ml-2">No</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium">¿La base de datos tiene el lenguaje PLSQL?</label>
+                <div class="mt-1 space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="plsql" value="S" class="form-radio">
+                        <span class="ml-2">Sí</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="plsql" value="N" class="form-radio">
+                        <span class="ml-2">No</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium">¿La base de datos tiene escalabilidad vertical?</label>
+                <div class="mt-1 space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="vertical" value="S" class="form-radio">
+                        <span class="ml-2">Sí</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="vertical" value="N" class="form-radio">
+                        <span class="ml-2">No</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mt-4">
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-green-600">Enviar respuestas</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
